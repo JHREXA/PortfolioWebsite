@@ -10,8 +10,7 @@ const routes: Routes = [
   { path: 'portfolio', component: PortfolioComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'projetPro', component: ProjetProComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full' }, // Ruta predeterminada
-  { path: '**', redirectTo: '/home', pathMatch: 'full' } // Ruta de comodín
+  { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];
 
 @NgModule({
