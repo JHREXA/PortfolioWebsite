@@ -15,7 +15,7 @@ export class ProjectsService {
       description: "Il s'agit d'une application avec une partie Front-End conçue avec Angular, qui interagit avec l'utilisateur, et un Back-End, chargée de la gestion des données.",
       projectLink: "https://github.com/JHREXA/repas",
       tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.MONGODB, Tag.EXPRESS, Tag.NODEJS, Tag.JAVASCRIPT],
-      picture: '../../assets/internationalEats.jpeg'
+      picture: '../../assets/internationaleats.jpeg'
     },
     {
       id: 1,
