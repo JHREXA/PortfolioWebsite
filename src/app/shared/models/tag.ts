@@ -6,7 +6,7 @@ export class Tag {
     static readonly NODEJS = new Tag('Node.JS', 'brown');
     static readonly JAVASCRIPT = new Tag('JavaScript', 'orange');
     static readonly MONGODB = new Tag('MongoDB', 'green');
-    static readonly EXPRESS = new Tag('JavaScript', 'pink');
+    static readonly EXPRESS = new Tag('Express', 'pink');
 
     private constructor(private readonly key: string, public readonly color: string){
 
